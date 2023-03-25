@@ -11,7 +11,7 @@ const Login = () => {
       </section>
       <section className="password_info">
         <label>비밀번호</label>
-        <input type="text" placeholder="비밀번호" name=""
+        <input type="text" placeholder="비밀번호" name="" />
       </section>
     </div>
   );
