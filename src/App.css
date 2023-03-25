@@ -56,7 +56,7 @@ header span {
 
 /* login */
 .login {
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,7 +65,7 @@ header span {
 .login .classification {
   display: flex;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 185px;
 }
 .login button {
   width: 100px;
@@ -77,7 +77,107 @@ header span {
   color: white;
 }
 
-.id_info {
+.login .id_info {
+  display: flex;
+  flex-direction: column;
+}
+.login .password_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.login label {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login input {
+  width: 320px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  line-height: 1rem;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.login .login_btn {
+  background-color: skyblue;
+}
+
+.login .login_btn2 {
+  background-color: skyblue;
+  width: 320px;
+}
+
+/* Sign up */
+.signup {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup .classification {
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.signup button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(198, 198, 198);
+  color: white;
+}
+
+.signup .id_info {
+  display: flex;
+  flex-direction: column;
+}
+.signup .password_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup label {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.signup input {
+  width: 320px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  line-height: 1rem;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.signup .register_btn {
+  background-color: skyblue;
+}
+
+.signup .login_btn2 {
+  background-color: skyblue;
+  width: 320px;
+}
+
+.signup .nickname_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup .password_confirm {
   display: flex;
   flex-direction: column;
 }
